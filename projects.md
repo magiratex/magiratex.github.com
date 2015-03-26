@@ -8,6 +8,27 @@ group: navigation
 {% include JB/setup %}
 
 # Multi-target tracking
-<img style="float: right" src="http://b3.hoopchina.com.cn/images/logo2013/v1/hp_logo_sports.png">
+
+<table width="500" border="0" cellpadding="5">
+
+<tr>
+
+<td align="center" valign="center">
+<img src="http://www.hupu.com/uploads/hupu/focus/large-20150326174259.jpg" alt="description here" />
+<br />
+Caption text centered under the image.
+</td>
+
+<td align="center" valign="center">
+<img src="http://www.hupu.com/uploads/hupu/focus/large-20150326174328.jpg" alt="description here" />
+<br />
+Caption text centered under the image.
+</td>
+
+</tr>
+
+</table>
+
+2333
 
 # Crowd simulation
