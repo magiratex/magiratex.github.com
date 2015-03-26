@@ -5,6 +5,7 @@ tagline: 從別後，憶相逢，幾回魂夢與君同。今宵剩把銀釭照�
 ---
 {% include JB/setup %}
 
+![Alt text](http://cmcs.fzu.edu.cn/images/logo.gif "Optional title")
     
 ## Latest
 
