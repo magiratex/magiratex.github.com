@@ -29,7 +29,13 @@ Once the tracker location is updated, appearance model should be updated. A set 
 
 ## Multiple instance learning
 
-In MIL, the training data has the form $ \\{ (X_1, y_1), ..., (X_n, y_n) \\} $, where a bag $ X_i = \\{  x_{i1}, ..., x_{im} \\} $ and $ y_i $ is a bag label: $ y_i = \max_j(y_{ij}) $. I.e., a bag is considered positive if it contains at least one positive instance. 
+In MIL, the training data has the form $ \\{ (X_1, y_1), ..., (X_n, y_n) \\} $, where a bag 
+$ X_i = \\{  x_{i1}, ..., x_{im} \\} $
+and 
+$ y_i $ 
+is a bag label: 
+$ y_i = \max_j(y_{ij}). $
+I.e., a bag is considered positive if it contains at least one positive instance. 
 
 MILBoosting aims to train a boosting classifier that maximizes the log-likelihood of bags: 
 $$ 
