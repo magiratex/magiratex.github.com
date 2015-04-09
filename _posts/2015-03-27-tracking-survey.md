@@ -62,7 +62,7 @@ E_t = \sum_i E[F_{t-1}(x_i) + \alpha_t h(x_i)]
 $$
 
 $\alpha_t$ is determined by the weighted sum error of the weak learner $h_t$, for misclassified pts. 
-Besides, the weights of samples are updated in each iteration, i.e. $w_{i,t+1} = w_{i,t} e^{-y_i \alpha_t h_t(x_i)}$. 
+Besides, the weights of samples are updated in each iteration, i.e. $ w_{i,t+1} = w_{i,t} e^{-y_i \alpha_t h_t(x_i)} $. 
 
 ### Online adaboost
 
