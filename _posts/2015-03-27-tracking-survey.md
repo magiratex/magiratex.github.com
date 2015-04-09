@@ -66,7 +66,10 @@ Besides, the weights of samples are updated in each iteration, i.e. $ w_{i,t+1} 
 
 ### Online adaboost
 
+[What is online learning algorithm?](http://en.wikipedia.org/wiki/Online_machine_learning)
 
+The online boosting algorithm corresponds to the batch boosting algorithm. Adaboost generates a sequence of base models using weighted training sets.
+It requires a OnlineBase, which is an incremental learning algorithm that takes a current hypothesis and the training example as input and returns an updated hypothesis. In essence, when a base model misclassifies a training example, the associated Poisson dist. parameter $\lamda$ is increased. 
 
 ### The proposed method
 
